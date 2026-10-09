@@ -1,0 +1,110 @@
+[
+{
+  "model": "main.product",
+  "pk": 1,
+  "fields": {
+    "name": "Rose",
+    "category": "Expressing",
+    "scientific_name": "Rose",
+    "color": "Red",
+    "price": "120.50",
+    "image": "product_images/Rose_Gw7V5Ps.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 2,
+  "fields": {
+    "name": "Marigold",
+    "category": "Festive",
+    "scientific_name": "Targetes",
+    "color": "Yellow",
+    "price": "30.00",
+    "image": "product_images/Targetes.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 4,
+  "fields": {
+    "name": "Lilium",
+    "category": "Decorative",
+    "scientific_name": "Lilium",
+    "color": "White Pink",
+    "price": "70.00",
+    "image": "product_images/Lilium.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 5,
+  "fields": {
+    "name": "Mogra",
+    "category": "Festive",
+    "scientific_name": "Mogra",
+    "color": "white",
+    "price": "34.99",
+    "image": "product_images/Mogra.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 7,
+  "fields": {
+    "name": "Hibiscus",
+    "category": "Festive",
+    "scientific_name": "Hibiscus",
+    "color": "Red",
+    "price": "80.00",
+    "image": "product_images/Hibiscus.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 8,
+  "fields": {
+    "name": "Lotus",
+    "category": "Aquatic",
+    "scientific_name": "Nelumbo nucifera",
+    "color": "Pink",
+    "price": "200.00",
+    "image": "product_images/Lotus.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 10,
+  "fields": {
+    "name": "Lily",
+    "category": "Ornamental",
+    "scientific_name": "Lilium spp",
+    "color": "White",
+    "price": "100.00",
+    "image": "product_images/Lily_YGkmURs.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 12,
+  "fields": {
+    "name": "chrysanthemum",
+    "category": "Ornamental",
+    "scientific_name": "Chrysanthemum morifolium",
+    "color": "Purple",
+    "price": "60.00",
+    "image": "product_images/chrysanthemum_S69o2i9.jpg"
+  }
+},
+{
+  "model": "main.product",
+  "pk": 13,
+  "fields": {
+    "name": "Sunflower",
+    "category": "Ornamental",
+    "scientific_name": "Helianthus annuus",
+    "color": "Yellow",
+    "price": "79.99",
+    "image": "product_images/Sunflower_P0VR8a1.jpg"
+  }
+}
+]

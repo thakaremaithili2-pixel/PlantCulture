@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card p-4">
+      <h4 style="color:#2d6a27;">🌸 Add New Bloom</h4>
+      <hr>
+      <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="form-group">
+          <label>{{ field.label }}</label>
+          {{ field }}
+        </div>
+        {% endfor %}
+        <div class="form-group">
+          <label>Product Image</label>
+          <input type="file" name="image" class="form-control-file">
+        </div>
+        <button type="submit" class="btn btn-success btn-block">Add Product</button>
+        <a href="{% url 'products' %}" class="btn btn-outline-secondary btn-block mt-2">Cancel</a>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
